@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run MainClassFX with JavaFX SDK",
+      "request": "launch",
+      "mainClass": "fr.devmobs.MainClassFX",
+      "vmArgs": "--enable-native-access=javafx.graphics --module-path /Users/tracnac/Devel/Java/.javasdk/javafx-sdk-24.0.2/lib --add-modules javafx.controls,javafx.fxml,java.instrument -XX:+EnableDynamicAgentLoading"
+    }
+  ]
+}
