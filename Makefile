@@ -1,11 +1,10 @@
 # Makefile for JavaFX DMG Packaging
 
-
 APP_NAME = MainClassFX
 JAR = template-0.1.jar
 MAIN_CLASS = fr.devmobs.MainClassFX
 ICON = target/icon.icns
-JAVA_HOME = /Library/Java/JavaVirtualMachines/graalvm-24.jdk/Contents/Home
+JAVA_HOME = $(sdk home java 24.0.2-graalce)
 JAVAFX_JMODS = $(HOME)/Devel/Java/.javasdk/javafx-jmods-24.0.2
 RUNTIME_DIR = target/myapp-runtime
 ICONSET = target/icon.iconset
